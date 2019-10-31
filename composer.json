@@ -37,6 +37,9 @@
         "classmap": [
             "database/seeds",
             "database/factories"
+        ],
+        "flies": [
+            "bootstrap/helper.php"
         ]
     },
     "autoload-dev": {
