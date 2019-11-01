@@ -22,5 +22,10 @@
         "sass-loader": "7.*",
         "vue": "^2.5.17",
         "vue-template-compiler": "^2.6.10"
+    },
+    "dependencies": {
+        "add": "^2.0.6",
+        "china-area-data": "^4.0.0",
+        "v-distpicker": "^1.2.2"
     }
 }
