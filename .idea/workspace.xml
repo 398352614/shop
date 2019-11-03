@@ -112,6 +112,11 @@
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/caouecs/laravel-lang" />
       <path value="$PROJECT_DIR$/vendor/overtrue/laravel-lang" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/encore/laravel-admin" />
     </include_path>
   </component>
   <component name="ProjectId" id="1SxO3HntGQNJ3wqtcySjJAzLKf3" />
@@ -159,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572501579491</updated>
       <workItem from="1572501580808" duration="38010000" />
-      <workItem from="1572745102357" duration="16377000" />
+      <workItem from="1572745102357" duration="18943000" />
     </task>
     <servers />
   </component>

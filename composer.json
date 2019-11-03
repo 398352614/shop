@@ -9,8 +9,9 @@
     "license": "MIT",
     "require": {
         "php": "^7.2",
+        "encore/laravel-admin": "1.7.7",
         "fideloper/proxy": "^4.0",
-        "laravel/framework": "^6.2",
+        "laravel/framework": "^6.4",
         "laravel/tinker": "^1.0",
         "overtrue/laravel-lang": "^3.0"
     },
@@ -69,6 +70,5 @@
             "type": "composer",
             "url": "https://packagist.phpcomposer.com"
         }
-    },
-    "require": {"ext-pdo":"^1.0"}
+    }
 }
