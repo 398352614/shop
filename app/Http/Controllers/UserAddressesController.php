@@ -17,14 +17,13 @@ class UserAddressesController extends Controller
 
     }
 
-    public function create(){
-        return view('user_addresses.create_and_edit',['address'=>new UserAddress()]);
+    public function edit(UserAddress $user_address)
+    {
+        $this->authorize('own', $user_address);
+
+        return view('user_addresses.create_and_edit', ['address' => $user_address]);
     }
 
-    public function edit(UserAddress $userAddress){
-        $this->authorize('own', $user_address);
-        return view('user_addresses.create_and_edit',['address'=>$userAddress]);
-    }
 
     public function store(UserAddressRequest $request)
     {
