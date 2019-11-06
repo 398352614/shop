@@ -140,6 +140,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\laragon\www\shop\app\Models" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -181,7 +186,7 @@
       <workItem from="1572501580808" duration="38010000" />
       <workItem from="1572745102357" duration="25189000" />
       <workItem from="1573006043561" duration="315000" />
-      <workItem from="1573006387935" duration="2677000" />
+      <workItem from="1573006387935" duration="8576000" />
     </task>
     <servers />
   </component>
