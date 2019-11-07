@@ -1,4 +1,3 @@
-@import "~@fortawesome/fontawesome-free/css/all.css";
 // Variables
 @import 'variables';
 
@@ -13,6 +12,61 @@ body {
 }
 
 /* header */
+.orders-index-page {
+    .list-group-item {
+        font-size: 12px;
+        border: none;
+        padding: 0;
+        margin-bottom: 15px;
+
+        .panel {
+            margin: 0;
+
+            .card-body {
+                padding: 0;
+            }
+        }
+
+        .table {
+            margin: 0;
+
+            td[rowspan] {
+                border-left: 1px solid #ddd;
+            }
+        }
+
+        .product-info {
+            display: flex;
+            flex-direction: row;
+
+            .preview {
+                img {
+                    max-width: 80px;
+                    max-height: 80px;
+                }
+
+                border: 1px solid #eee;
+                margin-right: 5px;
+            }
+
+            .product-title, .sku-title {
+                display: block;
+            }
+
+            .product-title > a {
+                color: #3c3c3c;
+            }
+
+            .sku-title {
+                color: #9e9e9e;
+            }
+        }
+
+        .total-amount {
+            font-weight: bolder;
+        }
+    }
+}
 
 .navbar-static-top {
     border-color: #e7e7e7;
@@ -244,48 +298,5 @@ body {
         }
     }
 }
-.cart-index-page {
-    .product_list {
-        .preview {
-            img {
-                max-width: 80px;
-                max-height: 80px;
-            }
-            margin-right: 20px;
-        }
 
-        .product_info {
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            font-size: 12px;
-            .product_title, .sku_title, .warning {
-                display: block;
-            }
 
-            .product_title a {
-                color: #3c3c3c;
-                font-size: 14px;
-            }
-            .not_on_sale {
-                .product_title, .sku_title {
-                    text-decoration: line-through;
-                }
-                .warning {
-                    color: red;
-                }
-            }
-        }
-
-        .price {
-            font-size: 12px;
-            font-weight: 700;
-            color: #3c3c3c;
-        }
-
-        input.amount {
-            width: 60px;
-            border-radius: 0 !important;
-        }
-    }
-}

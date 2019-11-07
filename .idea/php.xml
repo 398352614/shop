@@ -96,6 +96,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
       <path value="$PROJECT_DIR$/vendor/encore/laravel-admin" />
       <path value="$PROJECT_DIR$/vendor/jxlwqq/quill" />
+      <path value="$PROJECT_DIR$/vendor/predis/predis" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />

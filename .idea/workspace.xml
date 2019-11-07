@@ -132,6 +132,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
       <path value="$PROJECT_DIR$/vendor/encore/laravel-admin" />
       <path value="$PROJECT_DIR$/vendor/jxlwqq/quill" />
+      <path value="$PROJECT_DIR$/vendor/predis/predis" />
     </include_path>
   </component>
   <component name="ProjectId" id="1SxO3HntGQNJ3wqtcySjJAzLKf3" />
@@ -139,6 +140,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -186,7 +188,7 @@
       <workItem from="1572501580808" duration="38010000" />
       <workItem from="1572745102357" duration="25189000" />
       <workItem from="1573006043561" duration="315000" />
-      <workItem from="1573006387935" duration="20561000" />
+      <workItem from="1573006387935" duration="47083000" />
     </task>
     <servers />
   </component>
